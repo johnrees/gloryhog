@@ -10,7 +10,6 @@ var Menu = (function (_super) {
         _super.apply(this, arguments);
     }
     Menu.prototype.preload = function () {
-        this.game.load.image('titlescreen', 'assets/images/titlescreen.png');
     };
     Menu.prototype.create = function () {
         var image = this.game.add.sprite(0, 0, 'titlescreen');
